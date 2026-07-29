@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+
+# Scratch space for the deck builder's downloads (the extracted MP3s under
+# public/audio/ ARE committed; these intermediates are not).
+.cache/
