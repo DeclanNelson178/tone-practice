@@ -1,0 +1,1668 @@
+{
+  "source": "sinosplice",
+  "attribution": "Mandarin Chinese Tone Pair Drills by John Pasden / Sinosplice, CC BY-NC-SA 2.5 — https://www.sinosplice.com/learn-chinese/tone-pair-drills. Glosses from CC-CEDICT (MDBG), CC BY-SA 4.0",
+  "generatedFrom": "https://www.sinosplice.com/learn-chinese/tone-pair-drills/4",
+  "words": [
+    {
+      "id": "sino:xin1",
+      "traditional": "新",
+      "syllables": [
+        {
+          "pinyin": "xin",
+          "tone": 1
+        }
+      ],
+      "gloss": "abbr. for Xinjiang 新疆[Xin1 jiang1]; abbr. for Singapore 新加坡[Xin1 jia1 po1]",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/xin1.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:hei1",
+      "traditional": "黑",
+      "syllables": [
+        {
+          "pinyin": "hei",
+          "tone": 1
+        }
+      ],
+      "gloss": "short name for Heilongjiang 黑龍江|黑龙江[Hei1 long2 jiang1]; black",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/hei1.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:gan1",
+      "traditional": "幹",
+      "syllables": [
+        {
+          "pinyin": "gan",
+          "tone": 1
+        }
+      ],
+      "gloss": "tree trunk; main part of sth",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/gan1.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:qing1",
+      "traditional": "輕",
+      "syllables": [
+        {
+          "pinyin": "qing",
+          "tone": 1
+        }
+      ],
+      "gloss": "light; easy",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/qing1.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:suan1",
+      "traditional": "酸",
+      "syllables": [
+        {
+          "pinyin": "suan",
+          "tone": 1
+        }
+      ],
+      "gloss": "sour; tart",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/suan1.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:mang2",
+      "traditional": "忙",
+      "syllables": [
+        {
+          "pinyin": "mang",
+          "tone": 2
+        }
+      ],
+      "gloss": "busy; hurriedly",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/mang2.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:chang2",
+      "traditional": "長",
+      "syllables": [
+        {
+          "pinyin": "chang",
+          "tone": 2
+        }
+      ],
+      "gloss": "long; (bound form) length",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/chang2.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:qiang2",
+      "traditional": "強",
+      "syllables": [
+        {
+          "pinyin": "qiang",
+          "tone": 2
+        }
+      ],
+      "gloss": "surname Qiang; stubborn",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/qiang2.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:hong2",
+      "traditional": "紅",
+      "syllables": [
+        {
+          "pinyin": "hong",
+          "tone": 2
+        }
+      ],
+      "gloss": "surname Hong; used in 女紅|女红[nu : 3 gong1]",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/hong2.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:you2",
+      "traditional": "油",
+      "syllables": [
+        {
+          "pinyin": "you",
+          "tone": 2
+        }
+      ],
+      "gloss": "oil; fat",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/you2.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:hao3",
+      "traditional": "好",
+      "syllables": [
+        {
+          "pinyin": "hao",
+          "tone": 3
+        }
+      ],
+      "gloss": "good; appropriate; proper",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/hao3.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:xiao3",
+      "traditional": "小",
+      "syllables": [
+        {
+          "pinyin": "xiao",
+          "tone": 3
+        }
+      ],
+      "gloss": "small; tiny",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/xiao3.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:zao3",
+      "traditional": "早",
+      "syllables": [
+        {
+          "pinyin": "zao",
+          "tone": 3
+        }
+      ],
+      "gloss": "early; morning",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/zao3.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:wan3",
+      "traditional": "晚",
+      "syllables": [
+        {
+          "pinyin": "wan",
+          "tone": 3
+        }
+      ],
+      "gloss": "evening; night",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/wan3.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:mei3",
+      "traditional": "美",
+      "syllables": [
+        {
+          "pinyin": "mei",
+          "tone": 3
+        }
+      ],
+      "gloss": "(bound form) the Americas (abbr. for 美洲[Mei3 zhou1]); (bound form) USA (abbr. for 美國|美国[Mei3 guo2])",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/mei3.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:leng3",
+      "traditional": "冷",
+      "syllables": [
+        {
+          "pinyin": "leng",
+          "tone": 3
+        }
+      ],
+      "gloss": "surname Leng; cold",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/leng3.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:duan3",
+      "traditional": "短",
+      "syllables": [
+        {
+          "pinyin": "duan",
+          "tone": 3
+        }
+      ],
+      "gloss": "short; brief",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/duan3.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:da4",
+      "traditional": "大",
+      "syllables": [
+        {
+          "pinyin": "da",
+          "tone": 4
+        }
+      ],
+      "gloss": "big; large; great; older (than another person)",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/da4.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:gui4",
+      "traditional": "貴",
+      "syllables": [
+        {
+          "pinyin": "gui",
+          "tone": 4
+        }
+      ],
+      "gloss": "short name for Guizhou 貴州|贵州[Gui4 zhou1]; expensive",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/gui4.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:kuai4",
+      "traditional": "快",
+      "syllables": [
+        {
+          "pinyin": "kuai",
+          "tone": 4
+        }
+      ],
+      "gloss": "rapid; quick",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/kuai4.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:man4",
+      "traditional": "慢",
+      "syllables": [
+        {
+          "pinyin": "man",
+          "tone": 4
+        }
+      ],
+      "gloss": "slow",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/man4.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:huai4",
+      "traditional": "壞",
+      "syllables": [
+        {
+          "pinyin": "huai",
+          "tone": 4
+        }
+      ],
+      "gloss": "bad; spoiled",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/huai4.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:re4",
+      "traditional": "熱",
+      "syllables": [
+        {
+          "pinyin": "re",
+          "tone": 4
+        }
+      ],
+      "gloss": "to warm up; to heat up",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/re4.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:e4",
+      "traditional": "餓",
+      "syllables": [
+        {
+          "pinyin": "e",
+          "tone": 4
+        }
+      ],
+      "gloss": "hungry; to starve (sb)",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/e4.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:shang1xin1",
+      "traditional": "傷心",
+      "syllables": [
+        {
+          "pinyin": "shang",
+          "tone": 1
+        },
+        {
+          "pinyin": "xin",
+          "tone": 1
+        }
+      ],
+      "gloss": "to grieve; to be broken-hearted",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/shang1xin1.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:zao1gao1",
+      "traditional": "糟糕",
+      "syllables": [
+        {
+          "pinyin": "zao",
+          "tone": 1
+        },
+        {
+          "pinyin": "gao",
+          "tone": 1
+        }
+      ],
+      "gloss": "too bad; how terrible",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/zao1gao1.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:hao3chi1",
+      "traditional": "好吃",
+      "syllables": [
+        {
+          "pinyin": "hao",
+          "tone": 3
+        },
+        {
+          "pinyin": "chi",
+          "tone": 1
+        }
+      ],
+      "gloss": "tasty; delicious; to be fond of eating; to be gluttonous",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/hao3chi1.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:hao3ting1",
+      "traditional": "好聽",
+      "syllables": [
+        {
+          "pinyin": "hao",
+          "tone": 3
+        },
+        {
+          "pinyin": "ting",
+          "tone": 1
+        }
+      ],
+      "gloss": "pleasant to hear",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/hao3ting1.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:jin3zhang1",
+      "traditional": "緊張",
+      "syllables": [
+        {
+          "pinyin": "jin",
+          "tone": 3
+        },
+        {
+          "pinyin": "zhang",
+          "tone": 1
+        }
+      ],
+      "gloss": "nervous; keyed up",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/jin3zhang1.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:tu1ran2",
+      "traditional": "突然",
+      "syllables": [
+        {
+          "pinyin": "tu",
+          "tone": 1
+        },
+        {
+          "pinyin": "ran",
+          "tone": 2
+        }
+      ],
+      "gloss": "sudden; abrupt; unexpected",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/tu1ran2.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:you3ming2",
+      "traditional": "有名",
+      "syllables": [
+        {
+          "pinyin": "you",
+          "tone": 3
+        },
+        {
+          "pinyin": "ming",
+          "tone": 2
+        }
+      ],
+      "gloss": "famous; well-known",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/you3ming2.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:hao3wan2",
+      "traditional": "好玩",
+      "syllables": [
+        {
+          "pinyin": "hao",
+          "tone": 3
+        },
+        {
+          "pinyin": "wan",
+          "tone": 2
+        }
+      ],
+      "gloss": "amusing; fun",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/hao3wan2.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:jiao3hua2",
+      "traditional": "狡猾",
+      "syllables": [
+        {
+          "pinyin": "jiao",
+          "tone": 3
+        },
+        {
+          "pinyin": "hua",
+          "tone": 2
+        }
+      ],
+      "gloss": "crafty; cunning; sly",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/jiao3hua2.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:wei1xian3",
+      "traditional": "危險",
+      "syllables": [
+        {
+          "pinyin": "wei",
+          "tone": 1
+        },
+        {
+          "pinyin": "xian",
+          "tone": 3
+        }
+      ],
+      "gloss": "danger; dangerous",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/wei1xian3.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:xin1ku3",
+      "traditional": "辛苦",
+      "syllables": [
+        {
+          "pinyin": "xin",
+          "tone": 1
+        },
+        {
+          "pinyin": "ku",
+          "tone": 3
+        }
+      ],
+      "gloss": "exhausting; hard",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/xin1ku3.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:hao3dong3",
+      "traditional": "好懂",
+      "syllables": [
+        {
+          "pinyin": "hao",
+          "tone": 3
+        },
+        {
+          "pinyin": "dong",
+          "tone": 3
+        }
+      ],
+      "gloss": "easy to understand",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/hao3dong3.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:bao3shou3",
+      "traditional": "保守",
+      "syllables": [
+        {
+          "pinyin": "bao",
+          "tone": 3
+        },
+        {
+          "pinyin": "shou",
+          "tone": 3
+        }
+      ],
+      "gloss": "conservative; to guard",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/bao3shou3.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:gao1xing4",
+      "traditional": "高興",
+      "syllables": [
+        {
+          "pinyin": "gao",
+          "tone": 1
+        },
+        {
+          "pinyin": "xing",
+          "tone": 4
+        }
+      ],
+      "gloss": "happy; glad",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/gao1xing4.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:fang1bian4",
+      "traditional": "方便",
+      "syllables": [
+        {
+          "pinyin": "fang",
+          "tone": 1
+        },
+        {
+          "pinyin": "bian",
+          "tone": 4
+        }
+      ],
+      "gloss": "convenient; suitable; to facilitate; to make things easy",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/fang1bian4.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:an1jing4",
+      "traditional": "安靜",
+      "syllables": [
+        {
+          "pinyin": "an",
+          "tone": 1
+        },
+        {
+          "pinyin": "jing",
+          "tone": 4
+        }
+      ],
+      "gloss": "quiet; peaceful",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/an1jing4.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:hao3kan4",
+      "traditional": "好看",
+      "syllables": [
+        {
+          "pinyin": "hao",
+          "tone": 3
+        },
+        {
+          "pinyin": "kan",
+          "tone": 4
+        }
+      ],
+      "gloss": "good-looking; nice-looking; (of a movie, book, TV show etc) good",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/hao3kan4.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:ke3ai4",
+      "traditional": "可愛",
+      "syllables": [
+        {
+          "pinyin": "ke",
+          "tone": 3
+        },
+        {
+          "pinyin": "ai",
+          "tone": 4
+        }
+      ],
+      "gloss": "adorable; cute",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/ke3ai4.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:man3yi4",
+      "traditional": "滿意",
+      "syllables": [
+        {
+          "pinyin": "man",
+          "tone": 3
+        },
+        {
+          "pinyin": "yi",
+          "tone": 4
+        }
+      ],
+      "gloss": "satisfied; pleased",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/man3yi4.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:cong1ming0",
+      "traditional": "聰明",
+      "syllables": [
+        {
+          "pinyin": "cong",
+          "tone": 1
+        },
+        {
+          "pinyin": "ming",
+          "tone": 0
+        }
+      ],
+      "gloss": "intelligent; clever; bright; acute (of sight and hearing)",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/cong1ming0.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:shu1fu0",
+      "traditional": "舒服",
+      "syllables": [
+        {
+          "pinyin": "shu",
+          "tone": 1
+        },
+        {
+          "pinyin": "fu",
+          "tone": 0
+        }
+      ],
+      "gloss": "comfortable; feeling well",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/shu1fu0.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:qing1chu0",
+      "traditional": "清楚",
+      "syllables": [
+        {
+          "pinyin": "qing",
+          "tone": 1
+        },
+        {
+          "pinyin": "chu",
+          "tone": 0
+        }
+      ],
+      "gloss": "clear; distinct",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/qing1chu0.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:nuan3he0",
+      "traditional": "暖和",
+      "syllables": [
+        {
+          "pinyin": "nuan",
+          "tone": 3
+        },
+        {
+          "pinyin": "he",
+          "tone": 0
+        }
+      ],
+      "gloss": "warm; nice and warm",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/nuan3he0.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:nian2qing1",
+      "traditional": "年輕",
+      "syllables": [
+        {
+          "pinyin": "nian",
+          "tone": 2
+        },
+        {
+          "pinyin": "qing",
+          "tone": 1
+        }
+      ],
+      "gloss": "young",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/nian2qing1.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:nan2ting1",
+      "traditional": "難聽",
+      "syllables": [
+        {
+          "pinyin": "nan",
+          "tone": 2
+        },
+        {
+          "pinyin": "ting",
+          "tone": 1
+        }
+      ],
+      "gloss": "unpleasant to hear; coarse",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/nan2ting1.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:nan2shuo1",
+      "traditional": "難說",
+      "syllables": [
+        {
+          "pinyin": "nan",
+          "tone": 2
+        },
+        {
+          "pinyin": "shuo",
+          "tone": 1
+        }
+      ],
+      "gloss": "hard to tell (i.e. hard to judge or hard to predict); cannot bring oneself to say it",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/nan2shuo1.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:yong4gong1",
+      "traditional": "用功",
+      "syllables": [
+        {
+          "pinyin": "yong",
+          "tone": 4
+        },
+        {
+          "pinyin": "gong",
+          "tone": 1
+        }
+      ],
+      "gloss": "diligent; industrious (in one's studies)",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/yong4gong1.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:zi4si1",
+      "traditional": "自私",
+      "syllables": [
+        {
+          "pinyin": "zi",
+          "tone": 4
+        },
+        {
+          "pinyin": "si",
+          "tone": 1
+        }
+      ],
+      "gloss": "selfish; selfishness",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/zi4si1.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:liu2xing2",
+      "traditional": "流行",
+      "syllables": [
+        {
+          "pinyin": "liu",
+          "tone": 2
+        },
+        {
+          "pinyin": "xing",
+          "tone": 2
+        }
+      ],
+      "gloss": "(of a contagious disease etc) to spread; to propagate; (of a style of clothing, song etc) popular; fashionable",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/liu2xing2.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:wu2liao2",
+      "traditional": "無聊",
+      "syllables": [
+        {
+          "pinyin": "wu",
+          "tone": 2
+        },
+        {
+          "pinyin": "liao",
+          "tone": 2
+        }
+      ],
+      "gloss": "bored; boring",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/wu2liao2.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:te4bie2",
+      "traditional": "特別",
+      "syllables": [
+        {
+          "pinyin": "te",
+          "tone": 4
+        },
+        {
+          "pinyin": "bie",
+          "tone": 2
+        }
+      ],
+      "gloss": "unusual; special; very; especially; particularly",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/te4bie2.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:hao4qi2",
+      "traditional": "好奇",
+      "syllables": [
+        {
+          "pinyin": "hao",
+          "tone": 4
+        },
+        {
+          "pinyin": "qi",
+          "tone": 2
+        }
+      ],
+      "gloss": "inquisitive; curious",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/hao4qi2.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:re4qing2",
+      "traditional": "熱情",
+      "syllables": [
+        {
+          "pinyin": "re",
+          "tone": 4
+        },
+        {
+          "pinyin": "qing",
+          "tone": 2
+        }
+      ],
+      "gloss": "cordial; enthusiastic",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/re4qing2.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:nan2dong3",
+      "traditional": "難懂",
+      "syllables": [
+        {
+          "pinyin": "nan",
+          "tone": 2
+        },
+        {
+          "pinyin": "dong",
+          "tone": 3
+        }
+      ],
+      "gloss": "difficult to understand",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/nan2dong3.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:ming2xian3",
+      "traditional": "明顯",
+      "syllables": [
+        {
+          "pinyin": "ming",
+          "tone": 2
+        },
+        {
+          "pinyin": "xian",
+          "tone": 3
+        }
+      ],
+      "gloss": "clear; distinct",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/ming2xian3.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:xing4gan3",
+      "traditional": "性感",
+      "syllables": [
+        {
+          "pinyin": "xing",
+          "tone": 4
+        },
+        {
+          "pinyin": "gan",
+          "tone": 3
+        }
+      ],
+      "gloss": "sex appeal; eroticism",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/xing4gan3.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:bu2cuo4",
+      "traditional": "不錯",
+      "syllables": [
+        {
+          "pinyin": "bu",
+          "tone": 2
+        },
+        {
+          "pinyin": "cuo",
+          "tone": 4
+        }
+      ],
+      "gloss": "correct; right",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/bu2cuo4.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:rong2yi4",
+      "traditional": "容易",
+      "syllables": [
+        {
+          "pinyin": "rong",
+          "tone": 2
+        },
+        {
+          "pinyin": "yi",
+          "tone": 4
+        }
+      ],
+      "gloss": "easy; straightforward; likely; liable to; apt to",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/rong2yi4.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:he2shi4",
+      "traditional": "合適",
+      "syllables": [
+        {
+          "pinyin": "he",
+          "tone": 2
+        },
+        {
+          "pinyin": "shi",
+          "tone": 4
+        }
+      ],
+      "gloss": "suitable; fitting; appropriate",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/he2shi4.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:zhong4yao4",
+      "traditional": "重要",
+      "syllables": [
+        {
+          "pinyin": "zhong",
+          "tone": 4
+        },
+        {
+          "pinyin": "yao",
+          "tone": 4
+        }
+      ],
+      "gloss": "important; significant; major",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/zhong4yao4.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:kuai4le4",
+      "traditional": "快樂",
+      "syllables": [
+        {
+          "pinyin": "kuai",
+          "tone": 4
+        },
+        {
+          "pinyin": "le",
+          "tone": 4
+        }
+      ],
+      "gloss": "happy; joyful",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/kuai4le4.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:pian2yi0",
+      "traditional": "便宜",
+      "syllables": [
+        {
+          "pinyin": "pian",
+          "tone": 2
+        },
+        {
+          "pinyin": "yi",
+          "tone": 0
+        }
+      ],
+      "gloss": "convenient; cheap; inexpensive",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/pian2yi0.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:ma2fan0",
+      "traditional": "麻煩",
+      "syllables": [
+        {
+          "pinyin": "ma",
+          "tone": 2
+        },
+        {
+          "pinyin": "fan",
+          "tone": 0
+        }
+      ],
+      "gloss": "trouble; inconvenience; inconvenient; troublesome; annoying",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/ma2fan0.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:piao4liang0",
+      "traditional": "漂亮",
+      "syllables": [
+        {
+          "pinyin": "piao",
+          "tone": 4
+        },
+        {
+          "pinyin": "liang",
+          "tone": 0
+        }
+      ],
+      "gloss": "pretty; beautiful",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/piao4liang0.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:li4hai0",
+      "traditional": "厲害",
+      "syllables": [
+        {
+          "pinyin": "li",
+          "tone": 4
+        },
+        {
+          "pinyin": "hai",
+          "tone": 0
+        }
+      ],
+      "gloss": "(used to describe sb or sth that makes a very strong impression, whether favorable or unfavorable) terrible; intense; severe; devastating; amazing; awesome; outstanding; (of a person) stern; strict; harsh; shrewd; tough",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/li4hai0.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:ke4qi0",
+      "traditional": "客氣",
+      "syllables": [
+        {
+          "pinyin": "ke",
+          "tone": 4
+        },
+        {
+          "pinyin": "qi",
+          "tone": 0
+        }
+      ],
+      "gloss": "polite; courteous",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/ke4qi0.mp3"
+      },
+      "source": "sinosplice",
+      "category": "adjective"
+    },
+    {
+      "id": "sino:zhen1",
+      "traditional": "真",
+      "syllables": [
+        {
+          "pinyin": "zhen",
+          "tone": 1
+        }
+      ],
+      "gloss": "really; truly",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/zhen1.mp3"
+      },
+      "source": "sinosplice",
+      "category": "modifier"
+    },
+    {
+      "id": "sino:man2",
+      "traditional": "蠻",
+      "syllables": [
+        {
+          "pinyin": "man",
+          "tone": 2
+        }
+      ],
+      "gloss": "barbarian; bullying",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/man2.mp3"
+      },
+      "source": "sinosplice",
+      "category": "modifier"
+    },
+    {
+      "id": "sino:hen3",
+      "traditional": "很",
+      "syllables": [
+        {
+          "pinyin": "hen",
+          "tone": 3
+        }
+      ],
+      "gloss": "very; quite; (also, often used before an adjective without intensifying its meaning, i.e. as a meaningless syntactic element)",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/hen3.mp3"
+      },
+      "source": "sinosplice",
+      "category": "modifier"
+    },
+    {
+      "id": "sino:ting3",
+      "traditional": "挺",
+      "syllables": [
+        {
+          "pinyin": "ting",
+          "tone": 3
+        }
+      ],
+      "gloss": "straight; erect",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/ting3.mp3"
+      },
+      "source": "sinosplice",
+      "category": "modifier"
+    },
+    {
+      "id": "sino:bu4",
+      "traditional": "不",
+      "syllables": [
+        {
+          "pinyin": "bu",
+          "tone": 4
+        }
+      ],
+      "gloss": "no; not so; (bound form) not; un-",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/bu4.mp3"
+      },
+      "source": "sinosplice",
+      "category": "modifier"
+    },
+    {
+      "id": "sino:tai4",
+      "traditional": "太",
+      "syllables": [
+        {
+          "pinyin": "tai",
+          "tone": 4
+        }
+      ],
+      "gloss": "highest; greatest",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/tai4.mp3"
+      },
+      "source": "sinosplice",
+      "category": "modifier"
+    },
+    {
+      "id": "sino:fei1chang2",
+      "traditional": "非常",
+      "syllables": [
+        {
+          "pinyin": "fei",
+          "tone": 1
+        },
+        {
+          "pinyin": "chang",
+          "tone": 2
+        }
+      ],
+      "gloss": "very; really; unusual; extraordinary",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/fei1chang2.mp3"
+      },
+      "source": "sinosplice",
+      "category": "modifier"
+    },
+    {
+      "id": "sino:bi3jiao4",
+      "traditional": "比較",
+      "syllables": [
+        {
+          "pinyin": "bi",
+          "tone": 3
+        },
+        {
+          "pinyin": "jiao",
+          "tone": 4
+        }
+      ],
+      "gloss": "to compare; to contrast",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/bi3jiao4.mp3"
+      },
+      "source": "sinosplice",
+      "category": "modifier"
+    },
+    {
+      "id": "sino:bu2tai4",
+      "traditional": "不太",
+      "syllables": [
+        {
+          "pinyin": "bu",
+          "tone": 2
+        },
+        {
+          "pinyin": "tai",
+          "tone": 4
+        }
+      ],
+      "gloss": "not very; not too",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/bu2tai4.mp3"
+      },
+      "source": "sinosplice",
+      "category": "modifier"
+    },
+    {
+      "id": "sino:ta1",
+      "traditional": "他",
+      "syllables": [
+        {
+          "pinyin": "ta",
+          "tone": 1
+        }
+      ],
+      "gloss": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/ta1.mp3"
+      },
+      "source": "sinosplice",
+      "alsoWritten": [
+        "她",
+        "它"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "sino:ta1men0",
+      "traditional": "他們",
+      "syllables": [
+        {
+          "pinyin": "ta",
+          "tone": 1
+        },
+        {
+          "pinyin": "men",
+          "tone": 0
+        }
+      ],
+      "gloss": "they; them",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/ta1men0.mp3"
+      },
+      "source": "sinosplice",
+      "alsoWritten": [
+        "她們",
+        "它們"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "sino:wo3",
+      "traditional": "我",
+      "syllables": [
+        {
+          "pinyin": "wo",
+          "tone": 3
+        }
+      ],
+      "gloss": "I; me; my",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/wo3.mp3"
+      },
+      "source": "sinosplice",
+      "category": "pronoun"
+    },
+    {
+      "id": "sino:ni3",
+      "traditional": "你",
+      "syllables": [
+        {
+          "pinyin": "ni",
+          "tone": 3
+        }
+      ],
+      "gloss": "you (informal, as opposed to courteous 您[nin2])",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/ni3.mp3"
+      },
+      "source": "sinosplice",
+      "category": "pronoun"
+    },
+    {
+      "id": "sino:wo3men0",
+      "traditional": "我們",
+      "syllables": [
+        {
+          "pinyin": "wo",
+          "tone": 3
+        },
+        {
+          "pinyin": "men",
+          "tone": 0
+        }
+      ],
+      "gloss": "we; us; ourselves; our",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/wo3men0.mp3"
+      },
+      "source": "sinosplice",
+      "category": "pronoun"
+    },
+    {
+      "id": "sino:ni3men0",
+      "traditional": "你們",
+      "syllables": [
+        {
+          "pinyin": "ni",
+          "tone": 3
+        },
+        {
+          "pinyin": "men",
+          "tone": 0
+        }
+      ],
+      "gloss": "you (plural)",
+      "audio": {
+        "kind": "file",
+        "src": "audio/sinosplice/ni3men0.mp3"
+      },
+      "source": "sinosplice",
+      "category": "pronoun"
+    }
+  ]
+}
