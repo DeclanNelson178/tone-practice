@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
   // Project pages are served from /<repo>/, so assets must be requested relative to it.
