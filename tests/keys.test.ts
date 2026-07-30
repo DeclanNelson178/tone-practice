@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import { keyToAction } from '../src/ui/keys';
+import { keyToAction, resolveAction } from '../src/ui/keys';
 
 /** Builds the subset of KeyboardEvent the mapper reads. */
 const ev = (key: string, code = '', mods: Partial<Record<'metaKey' | 'ctrlKey' | 'altKey', boolean>> = {}) => ({
@@ -82,5 +82,39 @@ describe('keys that must be left alone', () => {
       kind: 'tone',
       tone: 1,
     });
+  });
+});
+
+describe('tone keys during the reveal', () => {
+  it('advances instead of dying silently', () => {
+    // The reveal is where a learner naturally types their next answer. Ignoring the
+    // press outright is what made 1-4 feel broken while space and enter kept working.
+    for (const tone of [1, 2, 3, 4, 0] as const) {
+      expect(resolveAction({ kind: 'tone', tone }, true)).toEqual({ kind: 'next' });
+    }
+  });
+
+  it('discards the tone rather than answering a word that has not played', () => {
+    // Carrying the tone through would commit an answer before the next audio starts,
+    // which in a listening drill is worse than dropping the press.
+    const resolved = resolveAction({ kind: 'tone', tone: 3 }, true);
+    expect(resolved).not.toHaveProperty('tone');
+  });
+
+  it('leaves tone keys untouched while answering', () => {
+    expect(resolveAction({ kind: 'tone', tone: 3 }, false)).toEqual({ kind: 'tone', tone: 3 });
+  });
+
+  it('passes transport keys through in both states', () => {
+    for (const revealed of [true, false]) {
+      expect(resolveAction({ kind: 'replay' }, revealed)).toEqual({ kind: 'replay' });
+      expect(resolveAction({ kind: 'next' }, revealed)).toEqual({ kind: 'next' });
+      expect(resolveAction({ kind: 'undo' }, revealed)).toEqual({ kind: 'undo' });
+    }
+  });
+
+  it('passes an unmapped key through as null', () => {
+    expect(resolveAction(null, true)).toBeNull();
+    expect(resolveAction(null, false)).toBeNull();
   });
 });

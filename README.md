@@ -37,7 +37,9 @@ Tone pairs form a 4×4 space, so that matrix is both the pair filter on the setu
 the accuracy heatmap on the summary. Sessions over-sample the pairs you get wrong.
 
 Keyboard: `1`–`4` and `0` for neutral, `space` to replay, `enter` for the next word,
-`backspace` to undo a pick.
+`backspace` to undo a pick. During the reveal a tone key also moves to the next word,
+so you never have to switch hands mid-drill — the press only advances, since the next
+word's audio has not played yet.
 
 ## Running it
 

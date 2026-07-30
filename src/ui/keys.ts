@@ -57,3 +57,20 @@ export function keyToAction(event: KeyLike): DrillAction | null {
 
   return null;
 }
+
+/**
+ * Adjusts an action for the reveal, where there is no longer anything to answer.
+ *
+ * A tone key pressed here advances instead. Ignoring it made 1-4 feel broken: after
+ * every answer the learner sits in the reveal, and reaching for the next tone did
+ * nothing while space and enter carried on working, so the digits looked dead.
+ *
+ * The tone is deliberately dropped rather than applied to the next word. Advancing
+ * starts that word's audio, so carrying the press through would commit an answer to
+ * something the learner has not heard — worse in a listening drill than one press
+ * spent on advancing.
+ */
+export function resolveAction(action: DrillAction | null, revealed: boolean): DrillAction | null {
+  if (revealed && action?.kind === 'tone') return { kind: 'next' };
+  return action;
+}

@@ -20,7 +20,7 @@ import { createStatsStore, resolveStore, type StatsStore } from '../core/stats';
 import { NEUTRAL, toDiacritics, toneKey, type Tone } from '../core/tones';
 import type { DeckSource, Word } from '../core/types';
 import { ANSWER_ORDER, TONE_NAMES, contourPath, pitchToY, toneLabel } from './contour';
-import { keyToAction } from './keys';
+import { keyToAction, resolveAction } from './keys';
 
 type Screen = 'setup' | 'drill' | 'summary';
 
@@ -641,31 +641,25 @@ export function mount(root: HTMLElement): void {
   document.addEventListener('keydown', (event) => {
     if (state.screen !== 'drill') return;
 
-    const action = keyToAction(event);
+    const action = resolveAction(keyToAction(event), state.grade !== null);
     if (!action) return;
 
     // preventDefault on keydown also stops space/enter from re-activating whichever
     // button the learner last clicked, which would otherwise double-fire.
+    event.preventDefault();
+
     switch (action.kind) {
       case 'replay':
-        event.preventDefault();
         play();
         break;
       case 'next':
-        event.preventDefault();
         if (state.grade) advance();
         break;
       case 'undo':
-        event.preventDefault();
         undo();
         break;
       case 'tone':
-        // Ignored during the reveal. Advancing on a tone key would consume the press,
-        // so the learner would believe they had answered the next word when they had not.
-        if (!state.grade) {
-          event.preventDefault();
-          choose(action.tone);
-        }
+        choose(action.tone);
         break;
     }
   });
