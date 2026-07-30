@@ -486,6 +486,37 @@ button {
   width: 4.6rem;
 }
 
+.keyhint {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+  margin: 0.4rem 0 0;
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.08em;
+  color: var(--graphite);
+}
+
+.keycap {
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  padding: 0.1rem 0.35rem;
+  border: 1px solid var(--rule-strong);
+  border-bottom-width: 2px;
+  border-radius: 3px;
+  background: var(--paper-raised);
+  color: var(--ink);
+}
+
+/* Touch devices have no keyboard to advertise. */
+@media (hover: none) and (pointer: coarse) {
+  .keyhint {
+    display: none;
+  }
+}
+
 /* --------------------------------------------------------------- reveal */
 
 .reveal {

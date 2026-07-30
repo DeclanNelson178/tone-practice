@@ -20,6 +20,7 @@ import { createStatsStore, resolveStore, type StatsStore } from '../core/stats';
 import { NEUTRAL, toDiacritics, toneKey, type Tone } from '../core/tones';
 import type { DeckSource, Word } from '../core/types';
 import { ANSWER_ORDER, TONE_NAMES, contourPath, pitchToY, toneLabel } from './contour';
+import { keyToAction } from './keys';
 
 type Screen = 'setup' | 'drill' | 'summary';
 
@@ -407,7 +408,7 @@ export function mount(root: HTMLElement): void {
 
     const listen = el('div', { class: 'listen' }, [
       disc,
-      el('p', { class: 'note' }, [state.grade ? '' : 'space to replay']),
+      el('p', { class: 'note' }, [state.grade ? '' : 'play again']),
     ]);
 
     const body: Array<Node | string> = [listen];
@@ -444,6 +445,23 @@ export function mount(root: HTMLElement): void {
         ]),
       );
     }
+
+    // Nothing else advertises that the drill is fully keyboard-driven.
+    rows.push(
+      el('p', { class: 'keyhint' }, [
+        keyCap('1'),
+        keyCap('2'),
+        keyCap('3'),
+        keyCap('4'),
+        ' tones · ',
+        keyCap('0'),
+        ' neutral · ',
+        keyCap('space'),
+        ' replay · ',
+        keyCap('⌫'),
+        ' undo',
+      ]),
+    );
 
     return el('div', { class: 'slots' }, rows);
   }
@@ -500,6 +518,10 @@ export function mount(root: HTMLElement): void {
     parts.push(el('div', { class: 'actions' }, [next]));
 
     return el('div', { class: 'reveal' }, parts);
+  }
+
+  function keyCap(label: string): HTMLElement {
+    return el('kbd', { class: 'keycap' }, [label]);
   }
 
   /** A labelled row of read-only contour glyphs, used for both halves of the reveal. */
@@ -618,33 +640,33 @@ export function mount(root: HTMLElement): void {
 
   document.addEventListener('keydown', (event) => {
     if (state.screen !== 'drill') return;
-    if (event.metaKey || event.ctrlKey || event.altKey) return;
 
-    const key = event.key;
+    const action = keyToAction(event);
+    if (!action) return;
 
-    if (key === ' ') {
-      event.preventDefault();
-      play();
-      return;
-    }
-
-    if (key === 'Enter') {
-      event.preventDefault();
-      if (state.grade) advance();
-      return;
-    }
-
-    if (key === 'Backspace') {
-      event.preventDefault();
-      undo();
-      return;
-    }
-
-    // 0 and 5 both reach neutral: 5 is CEDICT's marker and a natural reach after 1-4.
-    const tone = key === '0' || key === '5' ? NEUTRAL : /^[1-4]$/.test(key) ? (Number(key) as Tone) : null;
-    if (tone !== null && !state.grade) {
-      event.preventDefault();
-      choose(tone);
+    // preventDefault on keydown also stops space/enter from re-activating whichever
+    // button the learner last clicked, which would otherwise double-fire.
+    switch (action.kind) {
+      case 'replay':
+        event.preventDefault();
+        play();
+        break;
+      case 'next':
+        event.preventDefault();
+        if (state.grade) advance();
+        break;
+      case 'undo':
+        event.preventDefault();
+        undo();
+        break;
+      case 'tone':
+        // Ignored during the reveal. Advancing on a tone key would consume the press,
+        // so the learner would believe they had answered the next word when they had not.
+        if (!state.grade) {
+          event.preventDefault();
+          choose(action.tone);
+        }
+        break;
     }
   });
 
