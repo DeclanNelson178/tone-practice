@@ -197,6 +197,14 @@ export class TtsEngine {
 
 // --- bundled clips ---------------------------------------------------------
 
+/**
+ * True for the DOMException browsers raise when one play() supersedes another
+ * ("The play() request was interrupted by a call to pause()").
+ */
+function isAbortError(err: unknown): boolean {
+  return err instanceof Error && (err.name === 'AbortError' || /interrupted by a call to/i.test(err.message));
+}
+
 export class ClipPlayer {
   private readonly cache = new Map<string, AudioClip>();
   private active: AudioClip | null = null;
@@ -214,11 +222,21 @@ export class ClipPlayer {
       this.cache.set(url, clip);
     }
 
-    this.cancel();
+    // Stop a *different* clip only. Pausing the clip we are about to restart would
+    // reject its own still-pending play() promise with AbortError.
+    if (this.active && this.active !== clip) this.active.pause();
+
     // Replay must replay, not resume where the last play stopped.
     clip.currentTime = 0;
     this.active = clip;
-    await clip.play();
+
+    try {
+      await clip.play();
+    } catch (err) {
+      // A play that was superseded is not a failure the learner needs to see; a blocked
+      // one (NotAllowedError, needs a tap) is, so only AbortError is swallowed.
+      if (!isAbortError(err)) throw err;
+    }
   }
 
   cancel(): void {

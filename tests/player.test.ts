@@ -74,7 +74,11 @@ class FakeClip implements AudioClip {
 
   async play(): Promise<void> {
     this.plays++;
-    if (this.rejectWith) throw new Error(this.rejectWith);
+    if (this.rejectWith) {
+      const err = new Error(this.rejectWith);
+      err.name = this.rejectWith;
+      throw err;
+    }
   }
 
   pause(): void {
@@ -284,6 +288,43 @@ describe('ClipPlayer', () => {
     clip.rejectWith = 'NotAllowedError';
     const player = new ClipPlayer(() => clip);
     await expect(player.play('a.mp3')).rejects.toThrow(/NotAllowedError/);
+  });
+
+  it('does not pause the clip it is about to restart', async () => {
+    // Pausing a clip mid-play rejects that clip's own pending play() promise with
+    // AbortError. Replaying the same word must not trip over itself.
+    const clip = new FakeClip();
+    const player = new ClipPlayer(() => clip);
+
+    await player.play('a.mp3');
+    await player.play('a.mp3');
+
+    expect(clip.pauses).toBe(0);
+    expect(clip.plays).toBe(2);
+  });
+
+  it('still stops a different clip before starting a new one', async () => {
+    const clips = new Map<string, FakeClip>();
+    const player = new ClipPlayer((src) => {
+      const clip = new FakeClip();
+      clips.set(src, clip);
+      return clip;
+    });
+
+    await player.play('a.mp3');
+    await player.play('b.mp3');
+
+    expect(clips.get('a.mp3')!.pauses).toBe(1);
+  });
+
+  it('swallows an AbortError from a superseded play', async () => {
+    // "interrupted by a call to pause()" means the play was replaced, not that audio
+    // is broken — surfacing it would put a browser stack trace in front of a learner.
+    const clip = new FakeClip();
+    clip.rejectWith = 'AbortError';
+    const player = new ClipPlayer(() => clip);
+
+    await expect(player.play('a.mp3')).resolves.toBeUndefined();
   });
 });
 
