@@ -19,11 +19,25 @@ surfaces the specific combinations you can't hear yet (3-3 and 2-3 are the usual
 
 | Deck | Audio | Words | Why |
 | --- | --- | --- | --- |
-| **Sinosplice** (default) | 89 bundled human recordings | 92 | Real voice, authentic vocabulary, works offline |
-| **Extended** | Browser `zh-TW` speech synthesis | ~300+ | The Sinosplice set has only 1–3 words per tone pair, so it becomes memorizable; this deck keeps the variety up |
+| **Sinosplice** (default) | 85 bundled human recordings | 85 | Real voice, authentic vocabulary, works offline |
+| **Extended** | Browser `zh-TW` speech synthesis | 990 | The Sinosplice set has only 1–3 words per tone pair, so it becomes memorizable; this deck keeps at least 13 words behind every pair |
 
-Neutral tone (輕聲) is a fifth answer option, since a chunk of real two-syllable vocabulary
-ends in it (聰明, 漂亮, 他們). It can be switched off.
+Both decks cover all 16 tone pairs, plus a neutral second syllable after each of the four
+tones. Neutral tone (輕聲) is a fifth answer option, since a good deal of real two-syllable
+vocabulary ends in it (聰明, 漂亮, 他們). It can be switched off.
+
+## The interface
+
+Answer buttons are pitch contours on the five-level staff Yuen Ren Chao devised for tone
+notation, with the digit kept as a label — the drill is training the link between a sound
+and a shape, so the shape leads. On a miss the reveal shows the correct contours beside the
+ones you picked, so you can see the flat line you chose next to the dip you missed.
+
+Tone pairs form a 4×4 space, so that matrix is both the pair filter on the setup screen and
+the accuracy heatmap on the summary. Sessions over-sample the pairs you get wrong.
+
+Keyboard: `1`–`4` and `0` for neutral, `space` to replay, `enter` for the next word,
+`backspace` to undo a pick.
 
 ## Running it
 
