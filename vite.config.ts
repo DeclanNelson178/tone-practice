@@ -1,8 +1,10 @@
 import { defineConfig } from 'vitest/config';
 
-export default defineConfig({
-  // Project pages are served from /<repo>/, so assets must be requested relative to it.
-  base: process.env.GITHUB_ACTIONS ? '/tone-practice/' : '/',
+export default defineConfig(({ mode }) => ({
+  // GitHub Pages serves a project site from /<repo>/, so every production build targets
+  // that path. Keyed on `mode` rather than `command` so `vite preview` — which is also
+  // a "serve" command but runs in production mode — reproduces the deployed paths.
+  base: mode === 'production' ? '/tone-practice/' : '/',
   test: {
     globals: true,
     environment: 'node',
@@ -10,4 +12,4 @@ export default defineConfig({
     // `// @vitest-environment jsdom` docblock so the rest stay fast.
     include: ['tests/**/*.test.ts'],
   },
-});
+}));
